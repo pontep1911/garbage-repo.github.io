@@ -1,0 +1,4 @@
+.backups/*.zip
+!.backups/*.zip.zip
+
+*sources.jar*

@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "garbage",
+    "module": "tls",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20-Beta2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tls-0.2.0.jar",
+          "url": "tls-0.2.0.jar",
+          "size": 18632,
+          "sha512": "e93cc4967a1aa08dbbf5b633fb44b813a02eada4a1a069354f5515871c46e1a1700848c25df0ff3ed467e1542a1d412dd0c8d5114ddc8b987ac7e449e6caf0d4",
+          "sha256": "6004cd1a9f26755171977865afa8334c254610981b98de2ce2b9dfbe1d799fe4",
+          "sha1": "7ec368c15fcac563f810b08595cc83af6667fade",
+          "md5": "d7b31efe8610602a0a837b8574222c8e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20-Beta2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tls-0.2.0.jar",
+          "url": "tls-0.2.0.jar",
+          "size": 18632,
+          "sha512": "e93cc4967a1aa08dbbf5b633fb44b813a02eada4a1a069354f5515871c46e1a1700848c25df0ff3ed467e1542a1d412dd0c8d5114ddc8b987ac7e449e6caf0d4",
+          "sha256": "6004cd1a9f26755171977865afa8334c254610981b98de2ce2b9dfbe1d799fe4",
+          "sha1": "7ec368c15fcac563f810b08595cc83af6667fade",
+          "md5": "d7b31efe8610602a0a837b8574222c8e"
+        }
+      ]
+    }
+  ]
+}
